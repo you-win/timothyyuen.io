@@ -1,0 +1,58 @@
+# The URL the site will be built for
+base_url = "https://timothyyuen.io"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "hermit_zola"
+
+title = "Timothy Yuen"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+home_subtitle = "Some nerd who likes the color green."
+home_subtitles = [
+    "Some nerd who likes the color green.",
+    "Definitely not a rubber duck.",
+    "Test blurb please ignore.",
+    "Keyboard masher extraordinaire.",
+    "Tim 'Please don't call me Timothy Yuen' Yuen.",
+    "Has a standing desk and actually uses it.",
+    "Had a Blåhaj before it was cool.",
+    "Spells resume the fancy way.",
+    "Is indistinguisable from an AI.",
+    "Hourly reminder to drink some water.",
+
+    "Is very quickly running out of blurbs."
+]
+
+author = "Timothy Yuen"
+
+
+[[extra.hermit_social]]
+name = "github"
+link = "https://github.com/you-win"
+
+[[extra.hermit_social]]
+name = "linkedin"
+link = "https://www.linkedin.com/in/timothy-yuen/"
+
+[[extra.hermit_social]]
+name = "mastodon"
+link = "https://mastodon.gamedev.place/@youwin"
+
+
+[[extra.hermit_menu]]
+name = "Résumé"
+link = "/resume"
+
+[[extra.hermit_menu]]
+name = "Projects"
+link = "/projects"

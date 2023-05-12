@@ -1,0 +1,3 @@
+[submodule "themes/hermit_zola"]
+	path = themes/hermit_zola
+	url = git@github.com:you-win/hermit_zola.git
