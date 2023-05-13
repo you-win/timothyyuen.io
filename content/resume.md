@@ -5,6 +5,7 @@ description = "The resume of Timothy Yuen"
 [extra]
 toc = true
 show_toc = true
+show_read_time = true
 +++
 
 # Timothy J. Yuen
